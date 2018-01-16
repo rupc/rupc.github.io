@@ -16,7 +16,7 @@ day_quote:
 
 # Does not change and does not remove 'script' variables
 script: [post.js]
-
+---
 
 This is my first post.
 한글도 체크
