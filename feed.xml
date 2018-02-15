@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <!-- Include Data Base  -->
+    
+    <title>Typing</title>
+    <description>Typing - A Theme for Jekyll</description>
+    <link>https://rupc.github.io/</link>
+    <atom:link href="https://rupc.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 15 Feb 2018 17:12:44 +0900</pubDate>
+    <lastBuildDate>Thu, 15 Feb 2018 17:12:44 +0900</lastBuildDate>
+    <generator>Jekyll v3.4.5</generator>
+    
+      <item>
+        <title>메시징 디자인 패턴과 분산 시스템</title>
+        <description>&lt;p&gt;분산 시스템 소프트웨어를 개발할 때 겪게 되는 가장 큰 문제 중 하나는 분산된 프로세스들 사이에서 송/수신되는 다양한 메시지들을 효율적으로 다루는 것이다. 이 메시지들은 서로 다른 시점에 송/수신되며, 서로 다른 목적을 지니며, 서로 다른 포맷을 띤다. 이런 이질적인(heterogeneous) 메시지들을 어떻게 해야 효율적으로 다룰 수 있을까?&lt;/p&gt; &lt;p&gt;예를 들어, 분산 시스템 분야의 전통적인 문제인 분산 합의(Distributed consensus)를 살펴 보자. 분산 합의 문제의 목적은 고장(failure)를 일부 허용하는 시스템에서 프로세스들 사이의 일관된 상태를 유지하는 것이다. 문제 상황을 좀 더 구체적인 형태로 표현하면, 한 올바른 프로세스가 어떤 값을 수용하자는 제안(propose)을 다른 프로세스들에 알리게 되면, 나머지 프로세스들은 이 값을 결과적으로 수용하게 되어, 프로세스들 사이에서의 일관된 상태를 유지하게...</description>
+        <pubDate>Thu, 15 Feb 2018 00:00:00 +0900</pubDate>
+        <link>https://rupc.github.io/blog/message-factory/</link>
+        <guid isPermaLink="true">https://rupc.github.io/blog/message-factory/</guid>
+        
+        <tag>programming</tag>
+        
+        <tag>design-pattern</tag>
+        
+        <tag>experience</tag>
+        
+        <tag>messaging</tag>
+        
+      </item>
+    
+      <item>
+        <title>소프트웨어 빌드 툴들 조사</title>
+        <description>&lt;p&gt;어느 정도 규모가 있는 프로젝트를 시작하려는 사람들이 가장 처음 맞딱뜨리는 문제 중 하나가 소프트웨어 빌드를 어떻게 할 것이냐게 관한 것이다(잘 다듬어진 IDE를 사용하는 경우는 제외).&lt;/p&gt; &lt;p&gt;보통 리눅스 환경에서 간단한 프로그램을 짜고 이를 컴파일하는 스크립트는 make로 작성하는데, make의 단점은 익히 알려져 있다시피 시간이 지남에 따라 소스 코드간의 의존 관계 및 작성해야할 코드량이 프로그래머가 감당하기에는 복잡해진다는 것이다.&lt;/p&gt; &lt;p&gt;그래서 make 이외에 여러가지 빌드 툴들이 제시가 되었는데… 현재 내가 찾아본바로는 다음 정도가 쓸모 있다고 판단됨.&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=&quot;https://cmake.org/&quot;&gt;cmake&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;https://www.gnu.org/software/automake/&quot;&gt;automake&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;https://bazel.build/&quot;&gt;bazel&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;https://github.com/waf-project/waf&quot;&gt;Waf build system&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;https://ninja-build.org/&quot;&gt;ninja&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;이외에 &lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_build_automation_software&quot;&gt;여기&lt;/a&gt;를 보면 목록이 주르륵 나오는데, 각자 상황에 따라 필요한 것을 선택하면 될 듯…&lt;/p&gt;...</description>
+        <pubDate>Sat, 03 Feb 2018 00:00:00 +0900</pubDate>
+        <link>https://rupc.github.io/blog/%EB%B9%8C%EB%93%9C%ED%88%B4%EB%93%A4/</link>
+        <guid isPermaLink="true">https://rupc.github.io/blog/%EB%B9%8C%EB%93%9C%ED%88%B4%EB%93%A4/</guid>
+        
+        <tag>programming</tag>
+        
+        <tag>experience</tag>
+        
+      </item>
+    
+      <item>
+        <title>프로그래밍의 오묘한 특성...</title>
+        <description>&lt;p&gt;프로그래밍은 논리적으로 표현되는 프로그래밍 언어를 사용하여 일련의 규칙을 따르는 텍스트를 생성하고 검사하고 실행하고 교정하는 등의 활동을 총징하는 넓은 개념이다. 누구는 프로그래밍을 (특정 가정아래) 문제를 정의하고 이를 해결할 수 있는 알고리즘 및 자료구조를 설계하는 행위로 규정하기도 하지만, 실제로 프로그래밍할때 사용되는 시간을 계산해보면 이는 작은 영역에 불과하다. 초기에 떠오른 솔루션을 다듬고 이를 구체화시켜 디자인하여 그럴듯한 알고리즘과 자료구조를 만들어내었다고 하자. 그리고 이를 그대로 코드로 옮겨서 테스트를 거쳐서 성공했다고 하자. 여기까지는 좋다. 하지만 현실의 문제는 특정한 가정 자체가 만족되지 못하는 경우가 발생하고, 문제 영역 자체도 그 경계가 모호한 경우가 많기 때문에, 이론의 영역과는 판이한 경우가 많다. 즉, 현실적으로 가치가 있는 문제를 정의하기가 상당히 까다롭다....</description>
+        <pubDate>Wed, 31 Jan 2018 00:00:00 +0900</pubDate>
+        <link>https://rupc.github.io/blog/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%98-%EC%98%A4%EB%AC%98%ED%95%A8/</link>
+        <guid isPermaLink="true">https://rupc.github.io/blog/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%98-%EC%98%A4%EB%AC%98%ED%95%A8/</guid>
+        
+        <tag>programming</tag>
+        
+        <tag>experience</tag>
+        
+      </item>
+    
+      <item>
+        <title>블로그 하는 이유</title>
+        <description>&lt;p&gt;일단 여기서(기타 손쉬운 블로깅 매체들을 놔두고 ?!) 블로그를 하는 이유 부터 분명히 하자. 블로깅은 여타 SNS와는 다르게 짧은 메시지 위주 의견보다는 좀 더 긴 호흡의 글을 쓰기에 알맞다. 특히나 기술과 관련된 내용을 기술하기 위해서는 어느 정도 분량이 필요하다. 물론 국내에서 제공하는 블로깅 서비스도 있지만, 개발자 관점에서 자유롭게 수정할 기회를 주는 블로깅을 한 번 해보고 싶었다.&lt;/p&gt;
+
+&lt;p&gt;얼마나 이 블로그를 지속할지는 모르겠지만, 하는 동안에는 다음과 같은 주제에 대해 글을 써볼 예정이다.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;논문 리뷰&lt;/li&gt;
+  &lt;li&gt;테크 및 기사 리뷰&lt;/li&gt;
+  &lt;li&gt;내용 정리&lt;/li&gt;
+  &lt;li&gt;프로그래밍 경험&lt;/li&gt;
+  &lt;li&gt;인물 탐구&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 16 Jan 2018 17:16:01 +0900</pubDate>
+        <link>https://rupc.github.io/blog/second-post/</link>
+        <guid isPermaLink="true">https://rupc.github.io/blog/second-post/</guid>
+        
+        <tag>testing</tag>
+        
+        <tag>blogging</tag>
+        
+      </item>
+    
+  </channel>
+</rss>
