@@ -58,7 +58,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Yongrae Jo"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
@@ -113,3 +113,6 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+
+github: [metadata]

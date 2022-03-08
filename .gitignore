@@ -2,3 +2,7 @@ _site
 .sass-cache
 .jekyll-metadata
 Gemfile.lock
+
+[user]
+    name = rupc
+    email = neurosilver@gmail.com
